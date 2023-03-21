@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="estilo3.css"/> 
+    </head>
+
+    <body>
+        
+        <h1>Página de teste</h1>
+
+        <h2>Área de cadastro</h2>
+        
+        <form method="POST" action="blablabla.php">
+         
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome:<br>
+                <input type="text" name="name" required minlength="2" maxlength="4">
+            </label><br>
+
+            <label>
+                Sobrenome:<br>
+                <input type="text" name="lastname" required>
+            </label><br>
+
+            <label>
+                Idade:<br>
+                <input type="number" name="age" required min="18" max="120" step="3">
+            </label><br>
+
+            <label>
+                Data de nascimento:<br>
+                <input type="date" name="birthdate" min="2021-06-14" >
+            </label><br>
+
+            <label>
+                Email:<br>
+                <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereco de email">
+            </label><br>
+            </fieldset>
+
+            <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa:<br>
+                <input type="text" name="companyname" required>
+            </label><br>
+
+            <label>
+                Cargo na empresa:<br>
+                <input type="text" name="companyjobtittle" required>
+            </label><br>
+
+            <input type="submit" value="Cadastrar">
+            </fieldset>
+
+
+        </form>
+
+        <h2>Área de login</h2>
+        <form>
+
+        </form>
+
+    </body>
+</html>

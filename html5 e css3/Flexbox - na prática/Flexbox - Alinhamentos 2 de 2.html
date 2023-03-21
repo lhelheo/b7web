@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- SITE DE APOIO -->
+        <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content  -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .container{
+                display: flex;
+                height: 500px;
+                flex-wrap: wrap;
+                flex-direction: row; /* nowrap - row ou column*/
+                justify-content: center;
+                align-items: center;
+                background-color: #DDD;
+                align-content: flex-end;
+            }
+
+            .container div{
+                width: 100px;
+                height: 100px;
+                background-color: #F00;
+                margin: 10px;
+                padding: 10px;
+                font-size: 18px;
+            }
+
+            .div10{
+                order: -1;
+                align-self: flex-start;
+            }
+            .div14{
+                order: 2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+            <div>4</div>  
+            <div>5</div>  
+            <div>6</div>  
+            <div>7</div>  
+            <div>8</div>  
+            <div>9</div>  
+            <div class="div10">10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div class="div14">14</div>
+            <div>15</div>
+        </div>
+        <br>
+     
+        <div class="container2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+        </div>
+        <br>
+
+        <div class="container3">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+        </div>
+        <br>
+
+        <div class="container4">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+        </div>
+        <br>
+          
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="estilo3.css"/> 
+    </head>
+
+    <body>
+        
+        <h1>Página de teste</h1>
+
+        <h2>Área de cadastro</h2>
+        
+        <form method="GET" action="blablabla.php" enctype="multipart/form-data"> /* sem isso 
+            pode correr o risco de não receber o arquivo */
+            <input type="hidden" name="country" value="BR">
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome:<br>
+                <input type="text" name="name" required minlength="2" maxlength="4">
+            </label><br>
+
+            <label>
+                Sobrenome:<br>
+                <input type="text" name="lastname" required>
+            </label><br>
+ 
+            <label>
+                Foto:<br>
+                <input type="file" name="photo" accept="application/pdf">
+            </label><br>
+
+            </fieldset>
+
+        </form>
+
+        <h2>Área de login</h2>
+        <form>
+
+        </form>
+
+    </body>
+</html>

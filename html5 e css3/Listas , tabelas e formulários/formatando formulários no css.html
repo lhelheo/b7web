@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="estilo2.css"/> 
+    </head>
+
+    <body>
+        
+        <h1>Página de teste</h1>
+
+        <h2>Área de cadastro</h2>
+        
+        <form action="paginas/login.html" method="GET">
+            <!-- label é usado em um formulário para: 
+                Especificar qual informação colocar no input.  -->
+            <label>
+                Nome Completo:<br>
+                <input type="text" name="nome">
+            </label>
+
+            <label>
+                Descrição:<br>
+                <textarea name="descricao"></textarea>
+            </label>
+
+            <label>
+                Categoria:<br>
+                <select name="categoria">
+                    <option value="1">Categoria 1</option>
+                    <option value="2">Categoria 2</option>
+                    <option value="3">Categoria 3</option>
+                    <option value="4">Categoria 4</option>
+                    <option value="5">Categoria 5</option>
+                </select>
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Eu declado que li e aceito os <a href="paginas/termos.html" 
+                target="_blank" class="termoslink"> de uso.</a>
+            </label>
+
+            <button>Fazer Cadastro</button>
+
+        </form>
+
+        <h2>Área de login</h2>
+        <form>
+
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    font-size: 20px;
+}
+h1{
+    font-size: 3em;
+}
+.box{
+    font-size: 2em;
+}
+.box-interno{ /* está atrelado ao box anterior */
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+}
+
+/* rem -> rout em -> apontando para o html do site*/
+
+
+/* EXEMPLO !!*/ 
+/* html{
+    font-size: 20px;
+}
+h1{
+    font-size: 3rem;
+}
+.box{
+    font-size: 2rem;
+}
+.box-interno{
+    width: 20rem;
+    height: 20rem;
+    background-color: #999;
+} */
